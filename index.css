@@ -5,6 +5,12 @@ div
     padding: 20px;
 }
 
+div:hover
+{
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff;
+    transition: 0.2s ease-in;
+}
+
 p:hover, li:hover 
 {
     transition: 0.3s ease-in;
@@ -13,8 +19,14 @@ p:hover, li:hover
 
 p, li
 {
+    text-shadow: none;
     transition: 0.3s ease-in;
     color: white;
+}
+
+li 
+{
+    text-align: left;
 }
 
 body
