@@ -5,22 +5,15 @@
     padding: 20px;
 }
 
-@keyframes colorGradient
-{
-    from {color: white;}
-    to {color: wheat;}
-}
-
 .BirkaSz:hover 
 {
-    animation-name: colorGradient;
-    animation-duration: 2s;
-    animation-direction: normal;
+    transition: 0.3s ease-in;
     color: wheat;
 }
 
 .BirkaSz
 {
+    transition: 0.3s ease-in;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
